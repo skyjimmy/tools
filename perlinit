@@ -1,0 +1,11 @@
+#!/bin/bash
+
+cat > $1 << _EOF_
+#!/usr/local/bin/perl
+
+use strict;
+use warnings;
+_EOF_
+
+chmod 755 $1
+
