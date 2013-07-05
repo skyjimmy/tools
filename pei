@@ -8,4 +8,4 @@ use warnings;
 _EOF_
 
 chmod 755 $1
-
+vim $1
