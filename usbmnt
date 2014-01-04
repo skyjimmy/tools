@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sudo mount -o rw /dev/sdb1 /mnt/flash/
+
+if [ "$?" -eq 0 ]; then
+	echo "mounted"
+	cd /mnt/flash/
+else
+	echo "unmounted"
+fi
