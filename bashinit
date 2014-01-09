@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cat > $1 << _EOF_
+#!/bin/bash
+
+_EOF_
+
+chmod 755 $1
+vim $1
